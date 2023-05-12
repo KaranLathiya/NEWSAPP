@@ -11,7 +11,7 @@ export default class Section extends Component {
 
     constructor(props){
         super(props);
-        console.log(props)
+//         console.log(props)
         this.state ={
             articles:[],
             loading:true,
@@ -28,7 +28,7 @@ export default class Section extends Component {
        await res.json().then((result)=>{
         this.props.setprogress(80);
           this.setState({articles:this.state.articles.concat(result.articles),loading:false,totalresult:result.totalResults})
-          console.log(this.state.page)
+//           console.log(this.state.page)
         })
       this.props.setprogress(100);
       });
@@ -72,7 +72,7 @@ export default class Section extends Component {
     >
       <div className='container'>
         <div className='row'>
-           {console.log(articles)}  
+//            {console.log(articles)}  
         {articles.map ((element,index)=>{
            
             return  <div className="my-2 col-md-3" key={index}>
