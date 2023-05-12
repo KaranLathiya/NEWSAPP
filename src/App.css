@@ -23,7 +23,8 @@ option:hover{
   position: fixed;
 }
 .sec{
-  margin-top: 9vh;
+  /* margin-top: 9vh; */
+  margin-top: 2vh;
 }
 .cou{
   position: relative !important;
@@ -91,4 +92,7 @@ a:hover{
   to {
     transform: rotate(360deg);
   }
+}
+.disable{
+  margin-top: 70px;
 }
