@@ -17,7 +17,7 @@ export default class App extends Component {
     
     return (
       <>
-      <HashRouter Basename={process.env.PUBLIC_URL}>
+      
       <LoadingBar 
       height={3}
       color='red'
@@ -33,7 +33,7 @@ export default class App extends Component {
           <Route path="/sports" element={<Section setprogress={this.setprogress} key="sports" category="sports"/>}></Route>
           <Route path="/technology" element={<Section setprogress={this.setprogress} key="technology" category="technology"/>}></Route>
          </Routes>
-        </HashRouter>
+        
       </>
     )
   }
