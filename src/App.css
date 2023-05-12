@@ -1,3 +1,59 @@
+
+.selectbox{
+  color: white !important;
+}
+option:hover{
+  background-color: white !important;
+}
+
+.titlee{
+  height: 95px;
+}
+.authorr{
+  height: 40px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.navbar{
+  z-index: 5;
+  width: 100%;
+  position: relative;
+  top: 0%; 
+  position: fixed;
+}
+.sec{
+  margin-top: 9vh;
+}
+.cou{
+  position: relative !important;
+    left: 51vw !important;
+    /* float: left !important; */
+}
+a:hover{
+  /* font-size: larger; */
+  color: black !important;
+  background-color: white;
+  border-radius: 15px;
+}
+.linkactive{
+  /* font-size: larger; */
+  color: black !important;
+  background-color: white;
+  border-radius: 15px;
+}
+.card-text{
+  height: 80px;
+  overflow: hidden;
+}
+.mid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.borderr{
+  border-color: white;
+}
 .App {
   text-align: center;
 }
