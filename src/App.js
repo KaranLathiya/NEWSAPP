@@ -17,7 +17,7 @@ export default class App extends Component {
     
     return (
       <>
-      <HashRouter>
+      <HashRouter Basenmae={process.env.PUBLIC_URL}>
       <LoadingBar 
       height={3}
       color='red'
