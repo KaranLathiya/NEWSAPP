@@ -36,7 +36,7 @@ function Navbar(props) {
         <li className="nav-item dropdown cou">
         
   <select className="form-select bg-dark selectbox"  aria-label="Default select example">
-      <option  className='optioncountry' selected disabled>Country</option>
+      <option  className='optioncountry' defaultValue={"selected"} disabled>Country</option>
       <option className='optioncountry' value="in">India</option>
       <option  className='optioncountry'value="au">Australia</option>
       <option className='optioncountry' value="ca">Canada</option>
